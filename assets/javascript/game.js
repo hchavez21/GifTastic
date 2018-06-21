@@ -3,7 +3,7 @@ var topics = ["Tennis", "Basketball", "Golf"];
 function displaySport() {
 
     var dataName = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + dataName + "&api_key=dc6zaTOxFJmzC&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + dataName + "&api_key=lJWCGsXAVjtpFvustefZF1o3PDmyjmzV&limit=10";
     console.log(dataName)
     $.ajax({
         url: queryURL,
