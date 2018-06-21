@@ -1,0 +1,14 @@
+form {
+    float: right;
+}
+
+body {
+    padding: 20px;
+}
+
+.jumbo {
+    min-height: 400px;
+    color: lightcoral;
+    background-color: lightslategray;
+}
+
